@@ -1,0 +1,29 @@
+                          Upload Information Template for Hobbes.nmsu.edu
+                          ===============================================
+
+        Archive Filename: rxwtitle_12.zip
+       Short Description: Manipulate window  switchlist title from a rexx program
+        Long Description: Change or retrieve the switchlist title
+of the VIO window your rexx script is running in
+
+
+      Proposed directory
+           for placement: /pub/os2/dev/rexx
+
+               Your name: Michel SUCH
+           Email address: msuch@free.fr
+    Program contact name: (same)
+   Program contact email: (same)
+             Program URL: (none)
+
+      Would you like the
+   contact email address
+    included in listings? yes
+
+Operating System/Version: OS/2 3.0 or later
+ Additional requirements: EMXRT 09.d
+
+                Replaces: (RXWTITLE_11.ZIP)
+
+
+

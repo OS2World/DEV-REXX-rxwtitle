@@ -1,0 +1,24 @@
+RXWTITLE 1.0: 2001-05-07.
+
+Initial version.
+
+
+RXWTITLE 1.1, 2001-05-09
+
+- Somme minor changes in the rxwtitle.exe program to clean it up.
+
+- Some changes in the documentation file to be more clear on what the program is
+supposed to do.
+
+- no change in the rxwtitle.rexx, so no change to
+your rexx code.
+
+
+RXWTITLE 1.2, 2001-12-05
+
+- When the original title was restored, it was uppercased: fixed. This
+causes some changes in the rxwtitle.rex so, if you included it in your code,
+you must replace it by the new one.
+
+- Recompiled the rxwtitle.exe changing compile flags which makes
+smaller code.

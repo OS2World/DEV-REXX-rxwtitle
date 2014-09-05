@@ -1,0 +1,35 @@
+RXWTITLE, Version 1.2.
+
+Author: Michel SUCH. Email: msuch@free.fr
+
+
+
+RXWTITLE.REX contains two rexx functions you can use in your rexx scripts to
+manipulate the title that appears in the switchlist (window list) while your
+script is running. It can be used, in long running scripts, to indicate
+progress of the job.
+
+You can include rxwtitle.rex in your rexx script without any change to the
+original script since all variable used in rxwtitle are local.
+Note: The rxwtitle.exe program must be located in one of the directories
+defined in the path variable of the system or in the directory containing your
+script.
+rxwtitle.exe requires installation of emxrt 09.d to run.
+
+functions description:
+
+- New_title: Changes the window title and returns the previous one.
+Example:
+old_title = new_title("Hello world")
+old_title will contain the original title of the window.
+If old_title = '' then probably the rxwtitle.exe was not found.
+
+
+- cur_title: returns the current title of the window.
+Example:
+win_title = cur_title()
+If win_title = '' then probably the rxwtitle.exe was not found.
+
+
+- find_rxwtitle: Internal function used to locate
+the rxwtitle.exe program.
